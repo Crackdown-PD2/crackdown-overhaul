@@ -1,4 +1,6 @@
 <?xml version="1.0"?>
 <hooks script_path="lua/lib/" hook_id="lib/">
 	<post script_path="Core.lua" :hook_id="entry"/>
+	
+	<post :script_path="managers/savefilemanager.lua" :hook_id="managers/savefilemanager"/>
 </hooks>
